@@ -4,3 +4,6 @@ This microcontroller is not suitable for any real-time applications, it is built
 
 # Instruction Set
 ![Instruction set](./Instruction%20set%20of%204-bit%20Microcontroller.PNG)
+
+# Structure of Instruction
+![Structure of Instruction](./Structure%20of%20Instruction.jpg)
