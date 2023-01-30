@@ -3,4 +3,4 @@ This is a basic 4-bit microcontroller built using Logisim software, designed for
 This microcontroller is not suitable for any real-time applications, it is built for learning the basics of microcontroller architecture, assembly language programming and understanding how a microcontroller works. The repository includes the source files for the microcontroller, schematics, documentation, and example programs. The user is expected to have basic knowledge of assembly language programming to work with this microcontroller.
 
 # Instruction Set
-![Instruction set](./Instruction set of 4-bit Microcontroller.PNG)
+![Instruction set](./Instruction%20set%20of%204-bit%20Microcontroller.PNG)
