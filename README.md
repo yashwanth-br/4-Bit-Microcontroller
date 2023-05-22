@@ -20,7 +20,7 @@ This microcontroller is not suitable for any real-time applications, it is built
 - Logisim software
 
 ## Setup and Installation
-1. Download and install the Logisim software from [website](http://www.cburch.com/logisim/).
+1. Download and install the Logisim software from [website](https://sourceforge.net/projects/circuit/).
 2. Clone or download the source files from the GitHub repository.
 3. Open the Logisim files folder and open 'Architecture.circ' file in the software to access the microcontroller.
 
