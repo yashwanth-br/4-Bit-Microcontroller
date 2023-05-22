@@ -20,9 +20,11 @@ This microcontroller is not suitable for any real-time applications, it is built
 - Logisim software
 
 ## Setup and Installation
-1. Download and install the Logisim software from [website](https://sourceforge.net/projects/circuit/).
-2. Clone or download the source files from the GitHub repository.
-3. Open the Logisim files folder and open 'Architecture.circ' file in the software to access the microcontroller.
+1. Download and install the Java Runtime Environment required for Logisim software from the [website](https://www.java.com/en/download/).
+2. Download the Logisim software executable file from the [website](https://sourceforge.net/projects/circuit/).
+3. Clone or download the source files from the GitHub repository.
+4. Launch the Logisim software by opening the downloaded Logisim executable file.
+5. Click on _File_ -> _Open_ -> Navigate to the '_Logisim files_' folder in the downloaded repository and open 'Architecture.circ' file to access the microcontroller.
 
 ## Usage
 <sup>(Detailed usage will be uploaded soon)</sup>
