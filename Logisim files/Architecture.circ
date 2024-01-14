@@ -25,6 +25,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </tool>
     <tool name="Controlled Buffer">
       <a name="facing" val="south"/>
+      <a name="control" val="left"/>
     </tool>
     <tool name="Controlled Inverter">
       <a name="facing" val="north"/>
@@ -128,6 +129,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1180,650)" to="(1200,650)"/>
     <wire from="(1050,950)" to="(1050,1160)"/>
     <wire from="(590,240)" to="(590,250)"/>
+    <wire from="(1280,480)" to="(1280,560)"/>
     <wire from="(960,680)" to="(1020,680)"/>
     <wire from="(1470,90)" to="(1470,310)"/>
     <wire from="(780,140)" to="(780,210)"/>
@@ -142,7 +144,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(360,500)" to="(780,500)"/>
     <wire from="(1110,280)" to="(1110,290)"/>
     <wire from="(750,200)" to="(990,200)"/>
-    <wire from="(330,620)" to="(330,650)"/>
     <wire from="(1150,800)" to="(1150,810)"/>
     <wire from="(530,1030)" to="(810,1030)"/>
     <wire from="(260,560)" to="(350,560)"/>
@@ -154,10 +155,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(840,520)" to="(840,620)"/>
     <wire from="(150,440)" to="(150,480)"/>
     <wire from="(640,230)" to="(670,230)"/>
+    <wire from="(190,120)" to="(530,120)"/>
     <wire from="(1480,100)" to="(1480,330)"/>
     <wire from="(1180,610)" to="(1210,610)"/>
     <wire from="(960,520)" to="(1220,520)"/>
     <wire from="(100,160)" to="(240,160)"/>
+    <wire from="(120,630)" to="(120,810)"/>
     <wire from="(810,680)" to="(810,860)"/>
     <wire from="(450,610)" to="(520,610)"/>
     <wire from="(1070,720)" to="(1070,800)"/>
@@ -169,6 +172,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(280,540)" to="(280,550)"/>
     <wire from="(540,670)" to="(540,740)"/>
     <wire from="(780,600)" to="(970,600)"/>
+    <wire from="(370,630)" to="(370,640)"/>
     <wire from="(1470,90)" to="(2040,90)"/>
     <wire from="(750,400)" to="(750,490)"/>
     <wire from="(1490,110)" to="(1490,370)"/>
@@ -184,6 +188,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1050,190)" to="(1050,230)"/>
     <wire from="(100,850)" to="(190,850)"/>
     <wire from="(220,300)" to="(440,300)"/>
+    <wire from="(1360,560)" to="(1360,750)"/>
     <wire from="(240,50)" to="(240,160)"/>
     <wire from="(230,320)" to="(440,320)"/>
     <wire from="(990,880)" to="(1340,880)"/>
@@ -211,13 +216,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(980,660)" to="(1020,660)"/>
     <wire from="(530,950)" to="(530,1030)"/>
     <wire from="(1050,800)" to="(1050,810)"/>
-    <wire from="(330,650)" to="(370,650)"/>
     <wire from="(1110,950)" to="(1110,1190)"/>
     <wire from="(100,500)" to="(190,500)"/>
     <wire from="(810,220)" to="(1030,220)"/>
     <wire from="(1550,130)" to="(2000,130)"/>
     <wire from="(940,400)" to="(940,500)"/>
     <wire from="(210,760)" to="(210,800)"/>
+    <wire from="(170,190)" to="(190,190)"/>
     <wire from="(170,870)" to="(170,1240)"/>
     <wire from="(840,370)" to="(970,370)"/>
     <wire from="(1410,530)" to="(1500,530)"/>
@@ -234,6 +239,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(370,760)" to="(370,840)"/>
     <wire from="(520,1040)" to="(520,1070)"/>
     <wire from="(220,260)" to="(220,280)"/>
+    <wire from="(1530,940)" to="(1850,940)"/>
     <wire from="(530,600)" to="(530,680)"/>
     <wire from="(540,1020)" to="(780,1020)"/>
     <wire from="(1410,390)" to="(1410,530)"/>
@@ -246,6 +252,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,240)" to="(440,240)"/>
     <wire from="(590,250)" to="(620,250)"/>
     <wire from="(210,410)" to="(210,450)"/>
+    <wire from="(530,120)" to="(530,220)"/>
     <wire from="(1210,730)" to="(1980,730)"/>
     <wire from="(1010,950)" to="(1010,1140)"/>
     <wire from="(80,210)" to="(220,210)"/>
@@ -259,6 +266,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(750,310)" to="(750,400)"/>
     <wire from="(430,600)" to="(430,620)"/>
     <wire from="(160,830)" to="(160,1230)"/>
+    <wire from="(530,40)" to="(1080,40)"/>
     <wire from="(1270,950)" to="(1270,1270)"/>
     <wire from="(370,410)" to="(370,490)"/>
     <wire from="(520,690)" to="(520,720)"/>
@@ -299,6 +307,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(970,370)" to="(970,530)"/>
     <wire from="(550,1010)" to="(750,1010)"/>
     <wire from="(1320,410)" to="(1480,410)"/>
+    <wire from="(180,120)" to="(190,120)"/>
     <wire from="(1330,950)" to="(1330,1240)"/>
     <wire from="(750,90)" to="(750,150)"/>
     <wire from="(970,530)" to="(1240,530)"/>
@@ -307,6 +316,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1530,900)" to="(1700,900)"/>
     <wire from="(1320,370)" to="(1490,370)"/>
     <wire from="(360,500)" to="(360,570)"/>
+    <wire from="(120,980)" to="(370,980)"/>
     <wire from="(30,440)" to="(150,440)"/>
     <wire from="(780,600)" to="(780,670)"/>
     <wire from="(1070,950)" to="(1070,1170)"/>
@@ -314,6 +324,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1220,590)" to="(1220,720)"/>
     <wire from="(550,1010)" to="(550,1100)"/>
     <wire from="(440,710)" to="(440,730)"/>
+    <wire from="(1670,550)" to="(1850,550)"/>
     <wire from="(60,370)" to="(60,1160)"/>
     <wire from="(1170,800)" to="(1170,810)"/>
     <wire from="(840,370)" to="(840,520)"/>
@@ -330,6 +341,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(400,750)" to="(550,750)"/>
     <wire from="(170,870)" to="(190,870)"/>
     <wire from="(550,660)" to="(750,660)"/>
+    <wire from="(140,650)" to="(140,1210)"/>
     <wire from="(1390,950)" to="(1390,1180)"/>
     <wire from="(1730,430)" to="(1730,540)"/>
     <wire from="(940,280)" to="(940,400)"/>
@@ -337,6 +349,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(840,690)" to="(840,870)"/>
     <wire from="(20,550)" to="(150,550)"/>
     <wire from="(1090,720)" to="(1090,800)"/>
+    <wire from="(120,630)" to="(370,630)"/>
     <wire from="(970,600)" to="(970,670)"/>
     <wire from="(1310,1250)" to="(2050,1250)"/>
     <wire from="(1200,480)" to="(1200,510)"/>
@@ -359,6 +372,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(560,260)" to="(590,260)"/>
     <wire from="(1670,790)" to="(1670,840)"/>
     <wire from="(560,300)" to="(780,300)"/>
+    <wire from="(1080,40)" to="(1080,100)"/>
     <wire from="(30,440)" to="(30,1190)"/>
     <wire from="(680,150)" to="(750,150)"/>
     <wire from="(970,250)" to="(1170,250)"/>
@@ -369,13 +383,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1290,250)" to="(1290,290)"/>
     <wire from="(1350,470)" to="(1350,550)"/>
     <wire from="(220,300)" to="(220,370)"/>
-    <wire from="(140,620)" to="(140,1210)"/>
     <wire from="(2050,80)" to="(2050,1250)"/>
     <wire from="(420,1090)" to="(540,1090)"/>
     <wire from="(1720,650)" to="(1720,670)"/>
     <wire from="(250,780)" to="(250,800)"/>
     <wire from="(1700,630)" to="(1700,640)"/>
+    <wire from="(120,420)" to="(120,630)"/>
     <wire from="(1170,70)" to="(2060,70)"/>
+    <wire from="(1850,550)" to="(1850,750)"/>
     <wire from="(350,430)" to="(350,510)"/>
     <wire from="(840,280)" to="(840,370)"/>
     <wire from="(250,780)" to="(350,780)"/>
@@ -402,6 +417,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1360,450)" to="(1360,530)"/>
     <wire from="(810,220)" to="(810,290)"/>
     <wire from="(420,740)" to="(540,740)"/>
+    <wire from="(1180,560)" to="(1280,560)"/>
     <wire from="(250,430)" to="(250,450)"/>
     <wire from="(410,590)" to="(410,620)"/>
     <wire from="(540,590)" to="(540,670)"/>
@@ -418,11 +434,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1170,70)" to="(1170,130)"/>
     <wire from="(1220,720)" to="(1990,720)"/>
     <wire from="(400,1060)" to="(400,1100)"/>
+    <wire from="(170,460)" to="(190,460)"/>
     <wire from="(1330,1240)" to="(2040,1240)"/>
     <wire from="(840,60)" to="(840,120)"/>
     <wire from="(1320,390)" to="(1410,390)"/>
     <wire from="(1180,630)" to="(1340,630)"/>
     <wire from="(1360,530)" to="(1380,530)"/>
+    <wire from="(120,810)" to="(190,810)"/>
     <wire from="(530,1030)" to="(530,1080)"/>
     <wire from="(240,260)" to="(440,260)"/>
     <wire from="(1710,450)" to="(1710,540)"/>
@@ -446,14 +464,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(390,930)" to="(550,930)"/>
     <wire from="(810,860)" to="(810,1030)"/>
     <wire from="(810,510)" to="(810,610)"/>
+    <wire from="(120,810)" to="(120,980)"/>
     <wire from="(220,930)" to="(370,930)"/>
     <wire from="(780,1020)" to="(780,1250)"/>
     <wire from="(400,710)" to="(400,750)"/>
     <wire from="(1760,630)" to="(1760,670)"/>
     <wire from="(780,670)" to="(780,850)"/>
     <wire from="(530,680)" to="(530,730)"/>
-    <wire from="(140,620)" to="(330,620)"/>
     <wire from="(1050,720)" to="(1050,800)"/>
+    <wire from="(1360,750)" to="(1850,750)"/>
     <wire from="(180,50)" to="(240,50)"/>
     <wire from="(950,620)" to="(950,690)"/>
     <wire from="(340,520)" to="(840,520)"/>
@@ -468,14 +487,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1990,720)" to="(1990,1180)"/>
     <wire from="(1700,760)" to="(1700,900)"/>
     <wire from="(670,140)" to="(780,140)"/>
+    <wire from="(530,40)" to="(530,120)"/>
     <wire from="(1130,270)" to="(1250,270)"/>
     <wire from="(150,520)" to="(190,520)"/>
     <wire from="(370,840)" to="(370,930)"/>
     <wire from="(440,730)" to="(530,730)"/>
+    <wire from="(1850,750)" to="(1850,940)"/>
     <wire from="(390,580)" to="(550,580)"/>
     <wire from="(340,1040)" to="(370,1040)"/>
     <wire from="(220,580)" to="(370,580)"/>
     <wire from="(1100,130)" to="(1170,130)"/>
+    <wire from="(1080,40)" to="(1850,40)"/>
     <wire from="(950,620)" to="(1020,620)"/>
     <wire from="(2030,100)" to="(2030,1230)"/>
     <wire from="(1580,520)" to="(1610,520)"/>
@@ -499,6 +521,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(370,490)" to="(370,580)"/>
     <wire from="(160,830)" to="(190,830)"/>
     <wire from="(1460,170)" to="(1460,350)"/>
+    <wire from="(170,190)" to="(170,420)"/>
+    <wire from="(170,420)" to="(170,460)"/>
     <wire from="(350,860)" to="(810,860)"/>
     <wire from="(950,270)" to="(950,390)"/>
     <wire from="(1090,950)" to="(1090,1180)"/>
@@ -509,6 +533,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1110,720)" to="(1110,800)"/>
     <wire from="(460,1070)" to="(520,1070)"/>
     <wire from="(1700,640)" to="(1700,670)"/>
+    <wire from="(190,120)" to="(190,190)"/>
     <wire from="(50,1170)" to="(1070,1170)"/>
     <wire from="(990,90)" to="(990,100)"/>
     <wire from="(1200,650)" to="(1200,740)"/>
@@ -516,13 +541,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(960,610)" to="(1020,610)"/>
     <wire from="(960,260)" to="(1150,260)"/>
     <wire from="(240,920)" to="(360,920)"/>
+    <wire from="(120,420)" to="(170,420)"/>
     <wire from="(1550,130)" to="(1550,390)"/>
     <wire from="(1100,110)" to="(1160,110)"/>
     <wire from="(360,770)" to="(360,850)"/>
     <wire from="(520,610)" to="(520,690)"/>
+    <wire from="(140,650)" to="(370,650)"/>
     <wire from="(1170,250)" to="(1290,250)"/>
     <wire from="(230,770)" to="(230,800)"/>
     <wire from="(1320,350)" to="(1460,350)"/>
+    <wire from="(1850,40)" to="(1850,550)"/>
+    <wire from="(1280,560)" to="(1360,560)"/>
     <wire from="(750,200)" to="(750,310)"/>
     <wire from="(780,390)" to="(780,500)"/>
     <wire from="(560,240)" to="(590,240)"/>
@@ -580,122 +609,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1350,470)" to="(1630,470)"/>
     <wire from="(840,230)" to="(840,280)"/>
     <wire from="(1320,310)" to="(1470,310)"/>
-    <comp lib="5" loc="(1380,530)" name="LED">
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="10" loc="(210,450)" name="General Purpose Register">
-      <a name="label" val="R1"/>
-    </comp>
-    <comp lib="5" loc="(310,870)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1170,810)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1720,670)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="10" loc="(390,620)" name="General Purpose Register">
-      <a name="label" val="R2"/>
-    </comp>
-    <comp lib="5" loc="(250,520)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="0" loc="(810,1250)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1750,490)" name="Pull Resistor"/>
-    <comp lib="5" loc="(1740,670)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="0" loc="(620,250)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="5" loc="(1090,810)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="7" loc="(990,100)" name="Program counter"/>
-    <comp lib="6" loc="(1268,417)" name="Text"/>
-    <comp lib="5" loc="(780,30)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="10" loc="(390,970)" name="General Purpose Register">
-      <a name="label" val="R4"/>
-    </comp>
-    <comp lib="10" loc="(1690,540)" name="General Purpose Register">
-      <a name="label" val="Status Register"/>
-    </comp>
-    <comp lib="5" loc="(490,690)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1700,670)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1130,810)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="11" loc="(1110,720)" name="Instruction Register"/>
-    <comp lib="0" loc="(750,1250)" name="Pull Resistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(460,690)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1380,510)" name="LED">
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1760,670)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="6" loc="(301,486)" name="Text">
-      <a name="text" val="R1"/>
-    </comp>
-    <comp lib="0" loc="(1630,470)" name="Pull Resistor">
-      <a name="facing" val="north"/>
+    <comp lib="6" loc="(1048,984)" name="Text">
+      <a name="valign" val="top"/>
     </comp>
     <comp lib="0" loc="(1500,530)" name="Splitter">
       <a name="appear" val="center"/>
     </comp>
-    <comp lib="8" loc="(560,240)" name="RAM ROM with MAR"/>
-    <comp lib="6" loc="(1285,471)" name="Text"/>
-    <comp lib="5" loc="(310,520)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(1030,810)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(250,870)" name="LED">
+    <comp lib="5" loc="(430,1040)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
@@ -705,58 +625,33 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="12" loc="(1240,900)" name="main"/>
-    <comp lib="9" loc="(1110,290)" name="ALU_with_controls"/>
-    <comp lib="5" loc="(460,1040)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="6" loc="(483,1002)" name="Text">
-      <a name="text" val="R4"/>
-    </comp>
-    <comp lib="5" loc="(430,1040)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="1" loc="(1580,520)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(280,520)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
     <comp lib="10" loc="(210,800)" name="General Purpose Register">
       <a name="label" val="R3"/>
     </comp>
-    <comp lib="6" loc="(1742,596)" name="Text">
-      <a name="text" val="Status Register"/>
-    </comp>
-    <comp lib="5" loc="(1110,810)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
+    <comp lib="7" loc="(990,100)" name="Program counter"/>
     <comp lib="5" loc="(980,170)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="0" loc="(780,1250)" name="Pull Resistor">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(1730,430)" name="Pull Resistor"/>
+    <comp lib="10" loc="(1690,540)" name="General Purpose Register">
+      <a name="label" val="Status Register"/>
     </comp>
-    <comp lib="6" loc="(311,836)" name="Text">
-      <a name="text" val="R3"/>
-    </comp>
-    <comp lib="5" loc="(810,30)" name="LED">
+    <comp lib="9" loc="(1110,290)" name="ALU_with_controls"/>
+    <comp lib="5" loc="(220,870)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="0" loc="(840,1250)" name="Pull Resistor">
+    <comp lib="0" loc="(1620,610)" name="Constant"/>
+    <comp lib="0" loc="(1470,1010)" name="Splitter">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="10" loc="(210,450)" name="General Purpose Register">
+      <a name="label" val="R1"/>
+    </comp>
+    <comp lib="0" loc="(750,1250)" name="Pull Resistor">
       <a name="facing" val="north"/>
     </comp>
     <comp lib="5" loc="(400,690)" name="LED">
@@ -764,27 +659,65 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="6" loc="(1048,984)" name="Text">
-      <a name="valign" val="top"/>
+    <comp lib="6" loc="(301,486)" name="Text">
+      <a name="text" val="R1"/>
     </comp>
-    <comp lib="5" loc="(220,520)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="0" loc="(1470,1010)" name="Splitter">
+    <comp lib="6" loc="(288,525)" name="Text"/>
+    <comp lib="0" loc="(810,1250)" name="Pull Resistor">
       <a name="facing" val="north"/>
     </comp>
     <comp lib="6" loc="(481,649)" name="Text">
       <a name="text" val="R2"/>
     </comp>
-    <comp lib="5" loc="(430,690)" name="LED">
+    <comp lib="5" loc="(1130,810)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(460,1040)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="5" loc="(1070,170)" name="LED">
+    <comp lib="10" loc="(390,620)" name="General Purpose Register">
+      <a name="label" val="R2"/>
+    </comp>
+    <comp lib="5" loc="(840,30)" name="LED">
       <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="0" loc="(780,1250)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="6" loc="(1742,596)" name="Text">
+      <a name="text" val="Status Register"/>
+    </comp>
+    <comp lib="12" loc="(1240,900)" name="main"/>
+    <comp lib="5" loc="(1380,550)" name="LED">
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(250,520)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="0" loc="(1630,470)" name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="11" loc="(1110,720)" name="Instruction Register"/>
+    <comp lib="5" loc="(1150,810)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1500,410)" name="LED">
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1090,810)" name="LED">
+      <a name="facing" val="north"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
@@ -793,30 +726,151 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="5" loc="(1500,410)" name="LED">
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(840,30)" name="LED">
+    <comp lib="0" loc="(1750,490)" name="Pull Resistor"/>
+    <comp lib="5" loc="(780,30)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="6" loc="(288,525)" name="Text"/>
-    <comp lib="5" loc="(1010,170)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="5" loc="(400,1040)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
+    <comp lib="6" loc="(483,1002)" name="Text">
+      <a name="text" val="R4"/>
     </comp>
     <comp lib="5" loc="(750,30)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="0" loc="(620,250)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="5" loc="(430,690)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1010,170)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1070,810)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="6" loc="(1268,417)" name="Text"/>
+    <comp lib="8" loc="(560,240)" name="RAM ROM with MAR"/>
+    <comp lib="6" loc="(1285,471)" name="Text"/>
+    <comp lib="5" loc="(490,690)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(810,30)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(250,870)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="1" loc="(1580,520)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="5" loc="(1070,170)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="6" loc="(1721,706)" name="Text">
+      <a name="text" val="Z"/>
+    </comp>
+    <comp lib="5" loc="(310,870)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(310,520)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(490,1040)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(280,520)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="6" loc="(311,836)" name="Text">
+      <a name="text" val="R3"/>
+    </comp>
+    <comp lib="5" loc="(1700,670)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(220,520)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1740,670)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="10" loc="(390,970)" name="General Purpose Register">
+      <a name="label" val="R4"/>
+    </comp>
+    <comp lib="5" loc="(460,690)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1110,810)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="6" loc="(261,511)" name="Text"/>
+    <comp lib="0" loc="(180,50)" name="Clock"/>
+    <comp lib="5" loc="(1030,810)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1170,810)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="6" loc="(1739,707)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="5" loc="(180,120)" name="Button"/>
+    <comp lib="5" loc="(1760,670)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1380,530)" name="LED">
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="5" loc="(1380,510)" name="LED">
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="0" loc="(840,1250)" name="Pull Resistor">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="5" loc="(280,870)" name="LED">
       <a name="facing" val="south"/>
@@ -826,37 +880,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(1700,706)" name="Text">
       <a name="text" val="N"/>
     </comp>
-    <comp lib="0" loc="(1730,430)" name="Pull Resistor"/>
-    <comp lib="5" loc="(1070,810)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="6" loc="(261,511)" name="Text"/>
-    <comp lib="5" loc="(220,870)" name="LED">
+    <comp lib="5" loc="(400,1040)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="5" loc="(1150,810)" name="LED">
+    <comp lib="5" loc="(1720,670)" name="LED">
       <a name="facing" val="north"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="6" loc="(1721,706)" name="Text">
-      <a name="text" val="Z"/>
-    </comp>
-    <comp lib="5" loc="(1380,550)" name="LED">
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="0" loc="(180,50)" name="Clock"/>
-    <comp lib="0" loc="(1620,610)" name="Constant"/>
-    <comp lib="6" loc="(1739,707)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="5" loc="(490,1040)" name="LED">
-      <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>

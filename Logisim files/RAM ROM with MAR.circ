@@ -101,8 +101,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <path d="M521,296 Q525,306 529,296" fill="none" stroke="#808080" stroke-width="2"/>
-      <rect fill="none" height="125" stroke="#000000" stroke-width="2" width="121" x="470" y="294"/>
+      <path d="M521,291 Q525,301 529,291" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="130" stroke="#000000" stroke-width="2" width="120" x="470" y="289"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="621" y="316">Data in</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="626" y="335">Data out</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="639" y="367">Address</text>
@@ -117,6 +117,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="430" y="394">ROM 1 out</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="531" y="357">RAM / ROM</text>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="431" y="413">ROM 2 out</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="558" y="281">Reset</text>
       <circ-port height="8" pin="520,180" width="8" x="586" y="346"/>
       <circ-port height="8" pin="520,200" width="8" x="586" y="356"/>
       <circ-port height="8" pin="520,220" width="8" x="586" y="366"/>
@@ -129,9 +130,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="1470,470" width="10" x="585" y="325"/>
       <circ-port height="8" pin="500,760" width="8" x="466" y="386"/>
       <circ-port height="8" pin="500,820" width="8" x="466" y="406"/>
+      <circ-port height="8" pin="290,290" width="8" x="556" y="286"/>
       <circ-anchor facing="east" height="6" width="6" x="587" y="307"/>
     </appear>
     <wire from="(950,450)" to="(1000,450)"/>
+    <wire from="(690,290)" to="(690,300)"/>
     <wire from="(1210,510)" to="(1210,530)"/>
     <wire from="(1400,410)" to="(1400,620)"/>
     <wire from="(950,380)" to="(950,450)"/>
@@ -176,6 +179,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1050,350)" to="(1110,350)"/>
     <wire from="(1150,280)" to="(1270,280)"/>
     <wire from="(1190,510)" to="(1190,710)"/>
+    <wire from="(690,300)" to="(860,300)"/>
     <wire from="(1050,220)" to="(1100,220)"/>
     <wire from="(550,560)" to="(1150,560)"/>
     <wire from="(940,180)" to="(940,290)"/>
@@ -192,68 +196,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1340,480)" to="(1340,710)"/>
     <wire from="(1350,470)" to="(1440,470)"/>
     <wire from="(1440,470)" to="(1470,470)"/>
+    <wire from="(290,290)" to="(690,290)"/>
     <wire from="(520,200)" to="(920,200)"/>
     <wire from="(290,340)" to="(490,340)"/>
-    <comp lib="1" loc="(1300,220)" name="Controlled Buffer">
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(550,560)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="6" loc="(1179,176)" name="Text">
-      <a name="text" val="ROM 2"/>
-    </comp>
-    <comp lib="0" loc="(1470,400)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="1" loc="(1350,470)" name="Controlled Buffer">
       <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(490,710)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(1390,400)" name="Controlled Buffer">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="control" val="left"/>
-    </comp>
-    <comp lib="0" loc="(500,820)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(980,360)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="1" loc="(1400,620)" name="NOT Gate">
-      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(520,240)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(1310,350)" name="Controlled Buffer">
+    <comp lib="5" loc="(920,360)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="6" loc="(1181,304)" name="Text">
+      <a name="text" val="ROM 1"/>
+    </comp>
+    <comp lib="0" loc="(1470,470)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
       <a name="width" val="4"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="6" loc="(1124,425)" name="Text">
-      <a name="text" val="RAM"/>
+    <comp lib="0" loc="(1020,470)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="center"/>
     </comp>
-    <comp lib="7" loc="(880,290)" name="General Purpose Register"/>
-    <comp lib="0" loc="(1210,530)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(520,180)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(1240,220)" name="ROM">
+    <comp lib="4" loc="(1240,470)" name="RAM">
       <a name="addrWidth" val="4"/>
       <a name="dataWidth" val="4"/>
-      <a name="contents">addr/data: 4 4
-f 0 f
-</a>
     </comp>
-    <comp lib="0" loc="(530,320)" name="Pin">
+    <comp lib="0" loc="(290,340)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="4" loc="(1250,350)" name="ROM">
@@ -263,52 +239,84 @@ f 0 f
 f 0 f
 </a>
     </comp>
-    <comp lib="0" loc="(800,360)" name="Constant"/>
-    <comp lib="5" loc="(950,360)" name="LED">
-      <a name="facing" val="south"/>
-      <a name="color" val="#27c20c"/>
-      <a name="offcolor" val="#13401b"/>
-    </comp>
-    <comp lib="0" loc="(520,200)" name="Pin">
+    <comp lib="0" loc="(290,290)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="4" loc="(1240,470)" name="RAM">
-      <a name="addrWidth" val="4"/>
-      <a name="dataWidth" val="4"/>
+    <comp lib="0" loc="(520,180)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(550,560)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(1179,176)" name="Text">
+      <a name="text" val="ROM 2"/>
+    </comp>
+    <comp lib="1" loc="(1390,400)" name="Controlled Buffer">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="control" val="left"/>
+    </comp>
+    <comp lib="0" loc="(1470,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="6" loc="(1124,425)" name="Text">
+      <a name="text" val="RAM"/>
+    </comp>
+    <comp lib="0" loc="(800,360)" name="Constant"/>
     <comp lib="5" loc="(890,360)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="0" loc="(1020,470)" name="Splitter">
-      <a name="facing" val="west"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-      <a name="appear" val="center"/>
-    </comp>
-    <comp lib="0" loc="(520,220)" name="Pin">
+    <comp lib="0" loc="(500,760)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(1181,304)" name="Text">
-      <a name="text" val="ROM 1"/>
-    </comp>
-    <comp lib="5" loc="(920,360)" name="LED">
+    <comp lib="5" loc="(950,360)" name="LED">
       <a name="facing" val="south"/>
       <a name="color" val="#27c20c"/>
       <a name="offcolor" val="#13401b"/>
     </comp>
-    <comp lib="0" loc="(290,340)" name="Pin">
+    <comp lib="0" loc="(530,320)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(1470,470)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="0" loc="(500,820)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="4" loc="(1240,220)" name="ROM">
+      <a name="addrWidth" val="4"/>
+      <a name="dataWidth" val="4"/>
+      <a name="contents">addr/data: 4 4
+f 0 f
+</a>
+    </comp>
+    <comp lib="0" loc="(490,710)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1300,220)" name="Controlled Buffer">
       <a name="width" val="4"/>
-      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(500,760)" name="Pin">
+    <comp lib="0" loc="(520,200)" name="Pin">
       <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(1210,530)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(980,360)" name="LED">
+      <a name="facing" val="south"/>
+      <a name="color" val="#27c20c"/>
+      <a name="offcolor" val="#13401b"/>
+    </comp>
+    <comp lib="0" loc="(520,220)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(1400,620)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="7" loc="(880,290)" name="General Purpose Register"/>
+    <comp lib="1" loc="(1310,350)" name="Controlled Buffer">
+      <a name="width" val="4"/>
     </comp>
   </circuit>
 </project>
