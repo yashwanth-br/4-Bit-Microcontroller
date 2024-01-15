@@ -1,0 +1,17 @@
+Up/Down Counter Program
+
+LDR 0
+STR B
+LDR 1
+MOV R4,R1
+LDR E
+CMPI 1
+BZ B
+LDR F
+ADD R1,R4
+STR D
+BR 4
+LDR F
+SUB R4,R1
+STR D
+BR 4

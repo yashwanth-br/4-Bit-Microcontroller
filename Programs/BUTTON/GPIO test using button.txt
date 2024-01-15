@@ -1,0 +1,13 @@
+GPIO test program
+
+LDR 0
+STR B
+LDR E
+CMPI 1
+BC 8
+LDR 1
+STR D
+BR 2
+LDR 0
+STR D
+BR 2

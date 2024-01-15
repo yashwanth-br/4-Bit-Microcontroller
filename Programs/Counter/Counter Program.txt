@@ -1,0 +1,9 @@
+Counter Program
+
+LDR 0
+STR B
+LDR 1
+MOV R4,R1
+STR D
+ADD R1,R4
+BR 4
