@@ -59,3 +59,5 @@ After Installation of Java Runtime Environment and opening Logisim software, fol
 ![Illustration of Running the Program](./Illustrations/Running%20the%20Program.gif)
 ## Contributing
 Feel free to report any bugs or suggest new features by creating an issue in the GitHub repository.
+## License
+This project is licensed under the MIT License. You can find the full license text in the LICENSE file.
